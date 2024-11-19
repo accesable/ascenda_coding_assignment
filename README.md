@@ -58,3 +58,12 @@ class MergeContext:
         
 ```
 The logic of merge is that I prioritize the suppliers data fields with order. For example, Acme -> Paperfiles -> Patogonia so i will have 2 merge strategies implemented from `MergeHotelStrategy` From Acme -> Paperfiles and Paperfiles -> Patogonia. The Algorithms is based on the suppliers to decide which strategy to use
+test
+```bash
+# cd to src
+cd src
+python hotel_merger.py f8c9,iJhz none
+python hotel_merger.py none 5432
+python hotel_merger.py none 5432,1122
+python hotel_merger.py none none
+```
